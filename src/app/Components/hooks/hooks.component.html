@@ -1,0 +1,11 @@
+
+
+
+
+<div class="text-center">
+    <app-child  *ngIf="isVisible"  [myNumber]="myNumber"></app-child>
+
+  <button type="submit" class="btn btn-success" (click)="increment()">+1</button>&nbsp;
+  <button type="submit" class="btn btn-success" (click)="decrement()">-1</button>&nbsp;
+  <button type="submit" class="btn btn-success"  (click)="switch()">Destroy</button>
+</div>
